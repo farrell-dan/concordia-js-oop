@@ -12,4 +12,4 @@
 
 // B) Make Boots wait 20 minutes and call then console.log(boots);
 // (the wait function accepts a number that will modify all the cat's properties)
-// DO NOT make a function that runs after 20 minutes have passed
+// DO NOT make a setTimeout that runs after 20 minutes have passed

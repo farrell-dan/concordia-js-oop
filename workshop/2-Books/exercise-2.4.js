@@ -38,7 +38,7 @@ homeLibrary.add(new Book('American Gods', 'Fiction', 'Neil Gaiman'));
 homeLibrary.add(
   new Book('Eloquent JavaScript', 'Programming', 'Marijn Haverbeke', true)
 );
-homeLibrary.add(new Book('The Eire Affair', 'Fantasy', 'Jasper Fforde'));
+homeLibrary.add(new Book('The Eyre Affair', 'Fantasy', 'Jasper Fforde'));
 homeLibrary.add(
   new Book('The Revisionists', 'Science-fiction', 'thomas Mullen')
 );
@@ -55,6 +55,6 @@ console.log('Last-read, after finishing The Shining', homeLibrary.lastRead); // 
 
 homeLibrary.startReading('The Revisionists');
 console.log(
-  'Currentky reading, After starting The Revisionists',
+  'Currently reading, After starting The Revisionists',
   homeLibrary.currentlyReading
 ); // should be The Revisionists book

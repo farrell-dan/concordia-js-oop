@@ -9,7 +9,7 @@ class Human {
 }
 
 // Declare a class that extends Human
-class Male extends Human {
+class Person extends Human {
   constructor(name) {
     super(); // call parent constructor to set the species
     this.name = name;
@@ -19,8 +19,8 @@ class Male extends Human {
   };
 }
 
-// Create a bob object that is a HUMAN MALE
-let bob = new Male('Bob');
+// Create a bob object that is a HUMAN PERSON
+let bob = new Person('Bob');
 
 // Validation
 console.log('1. Species: ', bob.species);

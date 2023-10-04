@@ -30,13 +30,14 @@ const boots = new Cat()
 
 // C) What do you see when you console.log(boots)?
 
-Cat {
-    species: 'cat',
-    tiredness: 0,
-    hunger: 0,
-    loneliness: 0,
-    happiness: 0
-  }
+// Commented out so I don't see the problems in the terminal...
+// Cat {
+//     species: 'cat',
+//     tiredness: 0,
+//     hunger: 0,
+//     loneliness: 0,
+//     happiness: 0
+//   }
 
 // D) What if I want to output just boots' species?
 

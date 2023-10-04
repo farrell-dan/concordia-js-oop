@@ -9,3 +9,18 @@
 // and confirm that you have everything in there.
 
 // By the way, Boots is a Siamese cat...
+
+class Cat {
+  constructor (n, s){
+    this.name = n;
+    this.species = s;
+  }
+    tiredness = 0;
+    hunger = 0;
+    loneliness = 0;
+    happiness = 0;
+}
+
+const boots = new Cat("Boots", "Siamese")
+
+console.log(boots)

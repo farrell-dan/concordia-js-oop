@@ -44,7 +44,6 @@ class Cat {
         this.loneliness -= (minutes*3)
         this.happiness += (minutes);
     }
-
 }
 
 

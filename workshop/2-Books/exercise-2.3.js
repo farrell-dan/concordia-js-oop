@@ -2,6 +2,39 @@
 // Copy over the classes you created in 2.1 and 2.2. Do not copy the declarations (book1, book2, etc..., homeLibrary)
 // Paste them right here:
 
+class Book {
+  constructor (title, genre, author, isRead = false){
+      this.title = title;
+      this.genre = genre;
+      this.author = author;
+      this.isRead =isRead;
+  }
+}
+
+class BookList {
+  constructor(){
+      this.books = [];
+      this.lastRead = null;
+      this.currentlyReading = null;
+  }
+
+  add = (book) => {
+    this.books.push(book);
+  }
+
+  getNumRead = () => {
+    return this.books.filter((book) => book.isRead).length;
+  }
+
+  getNumUnread = () => {
+    return this.books.filter((book) => !book.isRead).length;
+  }
+
+}
+
+
+
+
 // Exercise 2.3
 //
 // We want to be able to add books to our BookList, so that we can start a
